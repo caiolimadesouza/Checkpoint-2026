@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>TripWay|Contato</title>
+</head>
+
+<body style="font-family: poppins;">
+    <nav> 
+        
+        <a href="../index.html">TripWay</a>
+        <ul>
+            <li> <a href="../pages/destinos.html">Destinos</a></li>
+            <li> <a href="../pages/pacotes.html">Pacotes</a></li>
+            <li> <a href="../pages/contato.html">Contatos</a></li>
+        </ul>
+    </nav>
+
+<form>
+  <p>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+  </p>
+
+
+  <p>
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+
+  </p>
+
+  <p>
+    <label for="destino">Destino de interesse:</label><br>
+    <select id="destino" name="destino">
+      <option value="">Selecione um destino</option>
+      <option value="rio">Rio de Janeiro</option>
+      <option value="santa">Santa Catarina</option>
+
+    </select>
+  </p>
+
+
+  <p>
+    <label for="data">Data:</label><br>
+    <input type="date" id="data" name="data">
+  </p>
+
+  <p>
+    <label for="pessoas">Quantidade de pessoas:</label><br>
+    <input type="number" id="pessoas" name="pessoas" min="1">
+  </p>
+
+  <p>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea>
+  </p>
+
+  <p>
+    <button type="submit">Enviar Reserva</button>
+  </p>
+</form>
+    
+
+
+</body>
+</html>
